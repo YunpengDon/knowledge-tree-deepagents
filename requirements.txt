@@ -1,0 +1,21 @@
+# 知识之树（Knowledge Tree）运行依赖
+# Python >= 3.11 推荐
+
+# Deep Agents 框架
+deepagents
+
+# LangChain tool 装饰器
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-openai>=0.2.0
+
+# 环境变量配置
+python-dotenv>=1.0.0
+
+# 网页搜索
+# 注意：ddgs 是 duckduckgo-search 的新包名（v9+），代码中 import 的是 `from ddgs import DDGS`
+ddgs>=9.0.0
+
+# 网页抓取
+requests>=2.31.0
+beautifulsoup4>=4.12.0
